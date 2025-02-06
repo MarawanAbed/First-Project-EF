@@ -9,9 +9,9 @@ namespace ConsoleApp10
         {
            ApplicationDbContext applicationDb = new ApplicationDbContext();
            applicationDb.Add(new Empolyee { Name = "Ali", Address = "Tehran" });
-            applicationDb.Add(new Department { Name = "IT" });
-            applicationDb.Add(new Project { Name = "Project1" });
-            applicationDb.SaveChanges();
+           applicationDb.Add(new Department { Name = "IT" });
+           applicationDb.Add(new Project { Name = "Project1" });
+           applicationDb.SaveChanges();
         }
     }
 }
